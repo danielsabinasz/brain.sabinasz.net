@@ -1009,7 +1009,7 @@ var brain3d = (function() {
             var dataURL = renderers["3d"].domElement.toDataURL();
 
             $("#modal .modal-title").html("Screenshot");
-            $("#modal .modal-body").html("Right-click the image and click on 'save image as'. If you plan to use this image, please reference sabinasz.net/brain as a source.<img src='" + dataURL + "' style='width: 100%;'>");
+            $("#modal .modal-body").html("Right-click the image and click on 'save image as'. If you plan to use this image, please reference brain.sabinasz.net as a source.<img src='" + dataURL + "' style='width: 100%;'>");
             $("#modal").modal("show");
         },
 
